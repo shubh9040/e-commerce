@@ -1,0 +1,51 @@
+.main-card{
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 0.5px;
+    border: 1px solid rgb(238, 237, 237);
+    height: 400px;
+    width: 300px;
+    margin: 0 10px 20px 10px;
+    word-wrap: break-word;
+    display: block;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.image-div{
+    height: 50%;
+    width: 100%;
+}
+
+.image-div img {
+    width: -webkit-fill-available;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 100%;
+}
+
+.body-div{
+    height: 50%;
+    width: 100%;
+    display: block;
+}
+
+.body-div div{
+    margin: 5px;
+    padding: 0 3px;
+}
+
+.cost{
+    display: flex;
+    margin: 10px 0;
+}
+
+.cost div{
+    margin: 0;
+}
+
+.btn{
+    margin: 10px 0;
+}

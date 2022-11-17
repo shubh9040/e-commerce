@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.primary-nav {
+  background-color: aliceblue;
+  padding: 16px 32px;
+  box-shadow: 0 2px 3px gray;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 900;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.secondary-div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.third-div {
+  display: flex;
+}
+
+.third-div div {
+  transition: 0.1s ease-in-out;
+}
+
+.third-div div:hover {
+  transform: scale(1.1);
+}
+
+.fourth-div{
+  display: flex;
+}
+
+.fourth-div div {
+  transition: 0.1s ease-in-out;
+}
+
+.fourth-div div:nth-child(2){
+  background-color: rgb(72, 46, 128);
+  /* border-radius: 50%; */
+  color: White;
+  display: inline;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+    margin-left: 20px;
+}
+
+.fourth-div p{
+  margin: 0;
+}
+
+.fourth-div .cart-link:hover {
+  transform: scale(1.1);
+}
+
+nav a {
+  margin-right: 16px;
+  transition: 0.2 ease-in;
+  text-decoration: none;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  font-weight: bolder;
+}

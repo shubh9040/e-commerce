@@ -1,0 +1,11 @@
+.c-div{
+    margin: 20px 100px;
+    justify-content: center;
+    display: block;
+    border-radius: 12px;
+}
+
+.c-div img{
+    height: 300px;
+    border-radius: 12px;
+}

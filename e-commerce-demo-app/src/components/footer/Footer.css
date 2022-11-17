@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.primary-footer {
+  bottom: 0;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-color: aliceblue;
+  color: rgb(72, 46, 128);
+}
+
+.div1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 1px;
+}
+
+.div1-1 {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.div1-2 {
+  background-image: url("../../../public//Images/E-Commerce-Logo-PNG-HD-Quality.png");
+  background-position: center;
+    background-size: 514px 300px;
+    background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+}
+
+.div2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 1px;
+}
+
+.div2-1{
+    width: 35%;
+    height: 100%;
+}
+
+.div2-1-1{
+    margin-top: 115px;
+    padding-left: 30px;
+}
+
+.div2-2{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div2-2 ul li{
+    list-style: none;
+    transition: 0.2s ease-in;
+}
+
+.div2-2 ul li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.icons{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.icons ul li{
+    transition: 0.2s ease-in-out;
+    list-style: none;
+    display: inline;
+}
+
+.icons div:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.send-mail{
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.send-mail:hover{
+  transform: scale(1.2);
+}
+
+li a{
+  text-decoration: none;
+}
